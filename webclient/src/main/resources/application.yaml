@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: webclient
+app:
+  webclient:
+    base-url: https://httpbin.org
+    proxy-host: ${proxyHost}
+    proxy-port: ${proxyPort}
+    proxy-user: ${proxyUser}
+    proxy-pwd: ${proxyPwd}
